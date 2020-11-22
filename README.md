@@ -4,7 +4,6 @@ This [patch-package](https://www.npmjs.com/package/patch-package) patch fixes th
 # How 2 use:
 
 1. place the patch folder in your project directory
-2. check that the version of the patchfile inside /patch matches your cdk version (i can't make sure to allways update dependencys)
 3. add [patch-package](https://www.npmjs.com/package/patch-package) to your package.json
 4. add ```"postinstall": "patch-package"``` to your package.json scripts
 5. Enjoy the cdk-cli on eks runtimes
